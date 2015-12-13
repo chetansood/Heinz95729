@@ -59,7 +59,6 @@ module.exports.factory = function (router, repo) {
         if ( req.cookies.auth === undefined) {
             res.send('404');
         } else {
-            console.log('error checking user in db.');
             res.send('200');
         }
     });
